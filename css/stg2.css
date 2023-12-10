@@ -1,0 +1,33 @@
+#adminmenu, #adminmenuback, #adminmenuwrap {
+    background: #7cc3ff!important;
+}
+#adminmenu a {
+    color: #a52a2a!important;
+}
+#adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top {
+    color: #fff!important;
+    background: #830606!important;
+    text-shadow: 0 0 black;
+}
+#wpadminbar {
+ color:#fff!important;
+    background: #830606!important;
+}
+#wpadminbar .ab-item, #wpadminbar a.ab-item, #wpadminbar>#wp-toolbar span.ab-label, #wpadminbar>#wp-toolbar span.noticon {
+    color: #fff!important;
+}
+#adminmenu div.wp-menu-image:before {
+    color: #a52a2a!important;
+    text-shadow: 0 0 black;
+}
+#adminmenu .wp-has-current-submenu .wp-submenu, #adminmenu .wp-has-current-submenu.opensub .wp-submenu, #adminmenu .wp-submenu, #adminmenu a.wp-has-current-submenu:focus+.wp-submenu {
+    background: #b9d8f1!important;
+}
+#adminmenu .wp-has-current-submenu .wp-submenu a, #adminmenu .wp-has-current-submenu.opensub .wp-submenu a, #adminmenu .wp-submenu a, #adminmenu a.wp-has-current-submenu:focus+.wp-submenu a {
+    color: #686868!important;
+}
+#adminmenu a:hover, #adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus {
+    color: #a52a2a;
+    background-color: #7cc3ff!important;
+    text-shadow: 0 0 black;
+}
